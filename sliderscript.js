@@ -1,8 +1,14 @@
 const rotateBtn = document.querySelector('.rotate-btn');
 const slides = document.querySelectorAll('.bg-slide');
+const menuIcon = document.querySelector('#menu-icon');
+const navbar = document.querySelector('.navbar');
 const totalSlides = slides.length;
 let index = 0;
 
+menuIcon.onclick = () =>{
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+}
 rotateBtn.addEventListener('click',() => {
     rotateBtn.classList.add('active');
     setTimeout(() => {
