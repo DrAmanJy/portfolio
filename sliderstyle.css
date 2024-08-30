@@ -68,7 +68,6 @@ html {
     position: relative;
     width: 100%;
     height: 100vh;
-    top: 60px
 }
 .bg-slide,
 .bg-slide .circle,
@@ -265,7 +264,6 @@ height: 100%;
         display: block;
       }
     .container {
-    /* Adjust top property for smaller screens */
-    top: 80px; /* Adjust this value based on navbar height on smaller screens */
+    width: 100%;
     }
   }
