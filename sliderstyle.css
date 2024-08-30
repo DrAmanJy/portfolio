@@ -263,4 +263,8 @@ height: 100%;
       .navbar.active{
         display: block;
     }
+    .container{
+    align-items: center;
+    text-align: center;
+    }
   }
