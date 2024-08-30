@@ -238,7 +238,7 @@ height: 100%;
 }
 
 
-@media screen and (max-width: 1028px) {
+@media screen and (max-width: 1992px) {
     #menu-icon{
         display: block;
       }
@@ -262,9 +262,5 @@ height: 100%;
       }
       .navbar.active{
         display: block;
-    }
-    .container{
-    align-items: center;
-    text-align: center;
-    }
+      }
   }
