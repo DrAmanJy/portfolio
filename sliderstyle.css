@@ -68,6 +68,7 @@ html {
     position: relative;
     width: 100%;
     height: 100vh;
+    top: 60px
 }
 .bg-slide,
 .bg-slide .circle,
@@ -238,7 +239,7 @@ height: 100%;
 }
 
 
-@media screen and (max-width: 1992px) {
+@media screen and (max-width: 992px) {
     #menu-icon{
         display: block;
       }
@@ -263,4 +264,8 @@ height: 100%;
       .navbar.active{
         display: block;
       }
+    .container {
+    /* Adjust top property for smaller screens */
+    top: 80px; /* Adjust this value based on navbar height on smaller screens */
+    }
   }
