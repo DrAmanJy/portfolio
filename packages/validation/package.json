@@ -1,0 +1,15 @@
+{
+  "name": "@validation/portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./project": "./src/project.schema.js"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  },
+  "packageManager": "pnpm@10.28.2"
+}
